@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name ssc)(type Legacy)(uri ${KIPRJMOD}/ssc.lib)(options "")(descr ""))
+  (lib (name "ssc")(type "Legacy")(uri "${KIPRJMOD}/ssc.lib")(options "")(descr ""))
+  (lib (name "ssc-rescue")(type "Legacy")(uri "${KIPRJMOD}/ssc-rescue.lib")(options "")(descr ""))
 )
