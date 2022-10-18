@@ -64,7 +64,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -87,7 +87,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -120,8 +120,7 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0,
-        0.1524
+        0.0
       ],
       "via_dimensions": [
         {
@@ -348,14 +347,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ssc.kicad_pro",
+    "filename": "SimpleSerialCard.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.1524,
+        "clearance": 0.254,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -365,14 +364,14 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "track_width": 0.3048,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.1524,
+        "clearance": 0.254,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -381,14 +380,16 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
+          "+12V",
           "+5V",
+          "-12V",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6096,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.635,
+        "via_diameter": 1.27,
+        "via_drill": 0.635,
         "wire_width": 6.0
       }
     ],
