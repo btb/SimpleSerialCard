@@ -1,6 +1,6 @@
 # Simple Serial Card
 
-This is a copy of the board at https://github.com/jmthompson/ssc just with a two-layer PCB and it uses 14(C)88 and 14(C)89 chips instead of a pair of MAX3232s. You also don't need the eight electrolytic caps. Otherwise it works (or doesn't) in the same ways, and suffers the same issues as that board.
+This is a copy of the board at https://github.com/jmthompson/ssc just with a two-layer PCB and it uses 14(C)88 and 14(C)89 chips instead of a pair of MAX3232s. You also don't need the eight electrolytic caps. Otherwise it works (or doesn't) in the same ways, and suffers the same issues as that board. For a board that is a more direct clone of the Super Serial Card II, see https://github.com/btb/SuperSerial
 
 ## Overview
 
